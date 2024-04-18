@@ -1,0 +1,36 @@
+
+
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+   
+    
+    
+   
+    
+    
+    
+}
+@font-face {
+    font-family: "fibr";
+    src: url("/assets/fibre-font.otf");
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: $main-color;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    
+    
+    
+   
+    
+
+        
+      
+}

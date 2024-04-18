@@ -1,0 +1,90 @@
+.content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 20%;
+    background-color: transparentize(#4b4b4b, 0.7);
+    height: 60vh;
+    line-height: 30px;
+  
+    h1 {
+      font-size: 60px;
+      color: rgb(44, 44, 44);
+      position: absolute;
+      left: 10%;
+      top: 15%;
+      font-weight: 700;
+
+      @media screen and (max-width: 1200px) {
+        font-size: 40px;
+      }
+    }
+  
+    h2 {
+      font-size: 35px;
+      position: absolute;
+      left: 10%;
+      top: 30%;
+      color: rgb(228, 44, 105);
+      @media screen and (max-width: 1200px) {
+        font-size: 20px;
+      }
+    }
+  
+    p {
+      font-size: 20px;
+      position: absolute;
+      left: 10%;
+      top: 40%;
+      color: rgb(56, 55, 55);
+      width: 40%;
+      text-transform: capitalize;
+  
+      @media screen and (max-width: 1200px) {
+        width: 80%; 
+        font-size: 14px; 
+        line-height: 2rem;
+      }
+    }
+  
+    .shopnow {
+      position: absolute;
+      text-decoration: none;
+      left: 20%;
+      top: 80%;
+      padding: 25px;
+      border-radius: 2rem;
+      padding-left: 2rem;
+      padding-right: 2rem;
+      font-size: 20px;
+      color: rgb(255, 255, 255);
+      background-color: rgb(56, 55, 55);
+      transition: .5s;
+      cursor: pointer;
+      border: 20px;
+
+      @media screen and (max-width: 1200px) {
+        top: 85%;
+        padding: 10px;
+        font-size: 15px;
+        padding-left: 2rem;
+      padding-right: 2rem;
+      
+      
+      }
+  
+      &:hover {
+        background-color: rgb(228, 44, 105);
+      }
+  
+     
+    
+  
+    }}
+
+    @media screen and (max-width: 1200px) {
+      .content{
+        position: absolute;
+        top: 60%;
+      }
+    }

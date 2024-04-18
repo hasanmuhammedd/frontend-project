@@ -1,0 +1,259 @@
+
+.C-aboutus{
+    background-color: rgb(248, 247, 247);
+    padding-inline: 6rem;
+    padding-block: 2rem;
+   position: absolute;
+   left:0%;
+   top: 15%;
+   right: 0%;
+   
+   height: 20%;
+
+   .aboutus{
+    position: relative;
+    left: 8rem;
+    top: 30%;
+   
+}
+}
+.container{
+   
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left:8rem;
+    top: 40%;
+    width: 100%;
+
+
+    .c2{
+        padding: auto;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        left: 4rem;
+        top: 0px;
+        margin: 25px;
+        width: 50%;
+    }
+    p{
+        font-size: 20px;
+        color: #687188;
+        line-height: 28px;
+        margin-bottom: 25px;
+        margin-top: 25px;
+        
+    }
+}
+.photo{
+   
+    width: 500px;
+    position: absolute;
+    left: 60%;
+    top: 3rem;
+    
+
+    
+
+    
+    
+}
+
+.photo img {
+    width: 100%;
+    height: 100%;
+}
+
+.section{
+    
+    width: 100%;
+    position: absolute;
+    top: 50rem;
+    background-color: #ffffff;
+
+
+    .container{
+        width: 100%;
+        position: absolute;
+        top: 10rem;
+        left: 0;
+        height: 700px;
+        background-color: rgb(248, 247, 247);
+
+    .co1{
+        justify-content: center;
+        text-align: center;
+        margin-top: 4rem;
+    }
+
+    .co2{
+        width: 40%;
+        margin: auto;
+        text-align: center !important;
+        color: #687188;
+        line-height: 28px;
+        margin-bottom: 25px;
+        margin-top: 25px;
+        text-transform: capitalize;
+        
+        
+    }
+
+.co345{
+    margin-left: 19rem;
+    margin-top: 7rem;
+   
+    
+}
+
+
+    .co3{
+        width: 20%;
+        
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        margin-left: 4rem;
+        border-radius: 1rem;
+        
+        box-shadow: 0 0 5px rgba(66, 66, 66, 0.5);
+
+        .CreativeDesign{
+            font-size: 1.25rem;
+            justify-content: center !important;
+            text-align: center !important;
+            padding-top: 3rem;
+
+
+        }
+        p{
+            font-size: 15px;
+            margin: 2rem;
+            line-height: 28px;
+            text-align: center;
+            text-transform: capitalize;
+        }
+        .icon{
+            
+            align-items: center;
+            justify-content: center;
+            background-color: #FF324D;
+            width: 60px;
+            height: 60px;
+            display: inline-block;
+            border-radius: 100%;
+            line-height: 60px;
+            
+            margin-left: 10rem;
+            margin-top: 2rem;
+            
+            .TfiEmail{
+                font-size: 25px;
+                align-items: center;
+            justify-content: center;
+            color: #ffffff;
+            margin-left: 1rem;
+            margin-top: 1rem;
+            }
+            
+        }
+    }
+    .co4{
+        width: 20%;
+        
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        margin-left: 30rem;
+        box-shadow: 0 0 5px rgba(66, 66, 66, 0.5);
+        border-radius: 1rem;
+
+        .FlexibleLayouts{
+            font-size: 1.25rem;
+            justify-content: center !important;
+            text-align: center !important;
+            padding-top: 3rem;
+        }
+        p{
+            font-size: 15px;
+            margin: 2rem;
+            line-height: 28px;
+            text-align: center;
+            text-transform: capitalize;
+        }
+        .icon{
+            
+            align-items: center;
+            justify-content: center;
+            background-color: #FF324D;
+            width: 60px;
+            height: 60px;
+            display: inline-block;
+            border-radius: 100%;
+            line-height: 60px;
+            
+            margin-left: 10rem;
+            margin-top: 2rem;
+            
+            .TfiEmail{
+                font-size: 25px;
+                align-items: center;
+            justify-content: center;
+            color: #ffffff;
+            margin-left: 1rem;
+            margin-top: 1rem;
+            }
+            
+        }
+        
+    }
+    .co5{
+        width: 20%;
+        
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        margin-left: 56rem;
+        box-shadow: 0 0 5px rgba(66, 66, 66, 0.5);
+        border-radius: 1rem;
+        
+
+        .EmailMarketing{
+            font-size: 1.25rem;
+            justify-content: center !important;
+            text-align: center !important;
+            padding-top: 3rem;
+        }
+        p{
+            font-size: 15px;
+            margin: 2rem;
+            line-height: 28px;
+            text-align: center;
+            text-transform: capitalize;
+        }
+
+        .icon{
+            
+            align-items: center;
+            justify-content: center;
+            background-color: #FF324D;
+            width: 60px;
+            height: 60px;
+            display: inline-block;
+            border-radius: 100%;
+            line-height: 60px;
+            
+            margin-left: 10rem;
+            margin-top: 2rem;
+            
+            .TfiEmail{
+                font-size: 25px;
+                align-items: center;
+            justify-content: center;
+            color: #ffffff;
+            margin-left: 1rem;
+            margin-top: 1rem;
+            }
+            
+        }
+    }
+}
+
+
+}

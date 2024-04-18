@@ -1,0 +1,101 @@
+.productDetails {
+    padding-inline: 4rem;
+    
+    .product {
+      display: flex;
+      align-items: flex-start;
+      gap: 2rem;
+      color: white;
+      .discount {
+        width: 4rem;
+        height: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        color: white;
+        background: green;
+        position: absolute;
+        left: 1rem;
+        top: 1rem;
+      }
+      .image {
+        position: absolute;
+        width: 20%;
+        top: 30%;
+        left: 10%;
+        img {
+          width: 100%;
+        height: 100%;
+        transition: transform 0.5s ease; /* Smooth transition for zoom effect */
+
+        &:hover {
+            transform: scale(1.1); /* Scale up by 10% on hover */
+        }
+        }
+      }
+      h4 {
+        font-size: 2.5rem;
+        font-weight: 900;
+        color: black;
+        
+      }
+      p {
+        width: 50%;
+        margin-block: 7rem;
+        color: black;
+        font-size:20px;
+      }
+      .price {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        color: black;
+        font-size:20px;
+        del {
+          opacity: 0.5;
+          color: black;
+        }
+      }
+    }
+
+    .description{
+      position: absolute;
+        width: 50%;
+        top: 30%;
+        left: 35%;
+    }
+  }
+
+  .addToCart{
+    padding-inline: 3rem;
+    padding-block: 1rem;
+    color:whitesmoke;
+    background-color: black;
+    border-radius: 10px;
+    position: absolute;
+    left: 15%;
+    bottom: -50%;
+    cursor: pointer;
+    border: none;
+    font-size: 17px;
+    overflow: hidden;
+    z-index: 1;
+   
+
+    &::after{
+        content: "";
+        width: 0%;
+        height: 100%;
+        background-color: rgb(228, 44, 105);
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: -1;
+        transition: 0.2s linear;
+    }
+
+    &:hover::after{
+        width: 100%;
+    }
+}

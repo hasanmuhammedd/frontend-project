@@ -1,0 +1,120 @@
+
+
+.container-contact{
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+   position:absolute;
+   left:20%;
+   top: 40%;
+   height: 30%;
+   
+   
+   
+  
+   
+   
+    
+}
+
+.input-contact  {
+    padding: 10px;
+    border: 1px solid rgb(58, 57, 57);
+    width: 100%;
+    margin: 15px;
+    border-radius: 3px;
+    
+
+    &:focus {
+        outline: none;
+        border-color: #000000;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+        padding: 20px;
+    
+        
+      }
+    
+      &::placeholder {
+        color: #514d4d;
+        
+      }
+    
+
+}
+
+
+
+.btn-contact{
+    padding-inline: 3rem;
+    padding-block: 1rem;
+    color:whitesmoke;
+    background-color: black;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    cursor: pointer;
+    border: none;
+    font-size: 17px;
+    overflow: hidden;
+    z-index: 1;
+   
+
+    &::after{
+        content: "";
+        width: 0%;
+        height: 100%;
+        background-color: rgb(228, 44, 105);
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: -1;
+        transition: 0.2s linear;
+    }
+
+    &:hover::after{
+        width: 100%;
+    }
+}
+
+
+.contact{
+    position: absolute;
+    top: -50px;
+    right: 38%;
+   
+    
+}
+
+.feedback{
+    position: absolute;
+    top: 0px;
+    right: 27%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: rgb(88, 87, 87);
+    
+    
+}
+
+.contact-info{
+    
+    margin: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif  ;
+    color: black;
+      
+}
+
+.phone-icon{
+    font-size: 25px;
+    margin: -5px;
+    position: relative;
+    left: -30px;
+}
+
+
+
+    
+
+
