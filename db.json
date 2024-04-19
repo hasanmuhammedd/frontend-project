@@ -1,0 +1,156 @@
+{
+  "users": [
+    {
+      "email": "veresyxita@mailinator.com",
+      "password": "$2a$10$agJkU2vDlnLBj5qtRANO7Ows6dgEe/AZEEeFGDvoMTrizVOSK7qSe",
+      "name": "Dylan Torres",
+      "confirm_password": "123456789",
+      "id": 1
+    },
+    {
+      "email": "hassaneltaher@icloud.com",
+      "password": "$2a$10$A3Y39DFuVNEj9l0RARv6vuclyV.qPHqmXi1toUvpNAComD3msSpz2",
+      "name": "hassan eltaher",
+      "confirm_password": "kingasd13",
+      "id": 2,
+      "isAdmin": true
+    },
+    {
+      "email": "kingasd13@icloud.com",
+      "password": "$2a$10$WDSNgD/XLZtSxEbcmRLANuLgkCyl2PPclA5HqGmPSJhqfrfokgIoW",
+      "name": "hassanasd",
+      "confirm_password": "asdasdasd",
+      "id": 3
+    },
+    {
+      "email": "mohamedeltaher@gmail.com",
+      "password": "$2a$10$W885Ut4ZueGyZ9Pcd1grVO/L4M5EuZJl58AysUu0l1k4UmLEHH1yC",
+      "name": "hassanmohamed",
+      "confirm_password": "123123123",
+      "id": 4
+    }
+  ],
+  "products": [
+    {
+      "id": 2,
+      "product_name": "product 2",
+      "discription": "Lorem ipsum dolor sit amet consectetur. Maecenas urna tortor egestas vitae ut id.",
+      "new_price": null,
+      "old_price": 2000,
+      "onSale": false,
+      "img": "https://img.freepik.com/free-photo/front-view-natural-cream-concept_23-2148578692.jpg?t=st=1713037581~exp=1713041181~hmac=387b272f6b30ee69679ac1f1b52562edd66db5af6f44f60df8f15e30d4b6e77e&w=740"
+    },
+    {
+      "id": 3,
+      "product_name": "product 3",
+      "discription": "Lorem ipsum dolor sit amet consectetur. Maecenas urna tortor egestas vitae ut id.",
+      "new_price": null,
+      "old_price": 1000,
+      "onSale": false,
+      "img": "https://img.freepik.com/free-photo/front-view-natural-cream-concept_23-2148578692.jpg?t=st=1713037581~exp=1713041181~hmac=387b272f6b30ee69679ac1f1b52562edd66db5af6f44f60df8f15e30d4b6e77e&w=740"
+    },
+    {
+      "id": 4,
+      "product_name": "product 3",
+      "discription": "Lorem ipsum dolor sit amet consectetur. Maecenas urna tortor egestas vitae ut id.",
+      "new_price": 500,
+      "old_price": 3000,
+      "onSale": true,
+      "img": "https://img.freepik.com/free-photo/flowers-cosmetic-container-arrangement_23-2149270083.jpg?t=st=1713037870~exp=1713041470~hmac=86829798c214cacd167e857e22c922a5fefcd6fd856592f9bc1768fdbe390a90&w=740"
+    },
+    {
+      "product_name": "test product",
+      "discription": "Lorem ipsum dolor sit amet consectetur. Maecenas urna tortor egestas vitae ut id.",
+      "new_price": null,
+      "old_price": 1000,
+      "onSale": false,
+      "img": "https://img.freepik.com/free-photo/flowers-cosmetic-container-arrangement_23-2149270083.jpg?t=st=1713037870~exp=1713041470~hmac=86829798c214cacd167e857e22c922a5fefcd6fd856592f9bc1768fdbe390a90&w=740",
+      "id": 5
+    },
+    {
+      "product_name": "test product 1000",
+      "discription": "Lorem ipsum dolor sit amet consectetur. Maecenas urna tortor egestas vitae ut id.",
+      "new_price": 400,
+      "old_price": 1000,
+      "onSale": true,
+      "img": "https://img.freepik.com/free-photo/flowers-cosmetic-container-arrangement_23-2149270083.jpg?t=st=1713037870~exp=1713041470~hmac=86829798c214cacd167e857e22c922a5fefcd6fd856592f9bc1768fdbe390a90&w=740",
+      "id": 6
+    }
+  ],
+  "wishList": [
+    {
+      "id": 3,
+      "product_name": "product 3",
+      "discription": "Lorem ipsum dolor sit amet consectetur. Maecenas urna tortor egestas vitae ut id.",
+      "new_price": null,
+      "old_price": 1000,
+      "onSale": false,
+      "img": "https://img.freepik.com/free-photo/front-view-natural-cream-concept_23-2148578692.jpg?t=st=1713037581~exp=1713041181~hmac=387b272f6b30ee69679ac1f1b52562edd66db5af6f44f60df8f15e30d4b6e77e&w=740"
+    },
+    {
+      "id": 2,
+      "product_name": "product 2",
+      "discription": "Lorem ipsum dolor sit amet consectetur. Maecenas urna tortor egestas vitae ut id.",
+      "new_price": null,
+      "old_price": 2000,
+      "onSale": false,
+      "img": "https://img.freepik.com/free-photo/front-view-natural-cream-concept_23-2148578692.jpg?t=st=1713037581~exp=1713041181~hmac=387b272f6b30ee69679ac1f1b52562edd66db5af6f44f60df8f15e30d4b6e77e&w=740"
+    },
+    {
+      "product_name": "test product",
+      "discription": "Lorem ipsum dolor sit amet consectetur. Maecenas urna tortor egestas vitae ut id.",
+      "new_price": null,
+      "old_price": 1000,
+      "onSale": false,
+      "img": "https://img.freepik.com/free-photo/flowers-cosmetic-container-arrangement_23-2149270083.jpg?t=st=1713037870~exp=1713041470~hmac=86829798c214cacd167e857e22c922a5fefcd6fd856592f9bc1768fdbe390a90&w=740",
+      "id": 5
+    },
+    {
+      "id": 4,
+      "product_name": "product 3",
+      "discription": "Lorem ipsum dolor sit amet consectetur. Maecenas urna tortor egestas vitae ut id.",
+      "new_price": 500,
+      "old_price": 3000,
+      "onSale": true,
+      "img": "https://img.freepik.com/free-photo/flowers-cosmetic-container-arrangement_23-2149270083.jpg?t=st=1713037870~exp=1713041470~hmac=86829798c214cacd167e857e22c922a5fefcd6fd856592f9bc1768fdbe390a90&w=740"
+    },
+    {
+      "product_name": "test product 1000",
+      "discription": "Lorem ipsum dolor sit amet consectetur. Maecenas urna tortor egestas vitae ut id.",
+      "new_price": 400,
+      "old_price": 1000,
+      "onSale": true,
+      "img": "https://img.freepik.com/free-photo/flowers-cosmetic-container-arrangement_23-2149270083.jpg?t=st=1713037870~exp=1713041470~hmac=86829798c214cacd167e857e22c922a5fefcd6fd856592f9bc1768fdbe390a90&w=740",
+      "id": 6
+    }
+  ],
+  "Cart": [
+    {
+      "id": 4,
+      "product_name": "product 3",
+      "discription": "Lorem ipsum dolor sit amet consectetur. Maecenas urna tortor egestas vitae ut id.",
+      "new_price": 500,
+      "old_price": 3000,
+      "onSale": true,
+      "img": "https://img.freepik.com/free-photo/flowers-cosmetic-container-arrangement_23-2149270083.jpg?t=st=1713037870~exp=1713041470~hmac=86829798c214cacd167e857e22c922a5fefcd6fd856592f9bc1768fdbe390a90&w=740"
+    },
+    {
+      "id": 2,
+      "product_name": "product 2",
+      "discription": "Lorem ipsum dolor sit amet consectetur. Maecenas urna tortor egestas vitae ut id.",
+      "new_price": null,
+      "old_price": 2000,
+      "onSale": false,
+      "img": "https://img.freepik.com/free-photo/front-view-natural-cream-concept_23-2148578692.jpg?t=st=1713037581~exp=1713041181~hmac=387b272f6b30ee69679ac1f1b52562edd66db5af6f44f60df8f15e30d4b6e77e&w=740"
+    },
+    {
+      "id": 3,
+      "product_name": "product 3",
+      "discription": "Lorem ipsum dolor sit amet consectetur. Maecenas urna tortor egestas vitae ut id.",
+      "new_price": null,
+      "old_price": 1000,
+      "onSale": false,
+      "img": "https://img.freepik.com/free-photo/front-view-natural-cream-concept_23-2148578692.jpg?t=st=1713037581~exp=1713041181~hmac=387b272f6b30ee69679ac1f1b52562edd66db5af6f44f60df8f15e30d4b6e77e&w=740"
+    }
+  ]
+}
